@@ -1,15 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
 import Parent from './components/Parent';
-import nodeState from './context/nodes/nodeState';
+import NodeState from './context/nodes/NodeState';
 
 function App() {
   return (
-    <nodeState>
+    <NodeState>
     <div className="App">
       <Parent/>
     </div>
-    </nodeState>
+    </NodeState>
   );
 }
 

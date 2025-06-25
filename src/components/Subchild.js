@@ -5,7 +5,7 @@ const Subchild= ()=>{
     const a= useContext(nodeContext);
     return(
         <>
-        {a.name},
+        {a.name}
         Subchild
         </>
     )
